@@ -75,7 +75,7 @@ install_x_ui() {
 configure_x_ui() {
     local port=8080
     local username="root"
-    local password="20240513Ccye"
+    local password="admin"
 
     echo "正在设置 x-ui 端口为 $port..."
     x-ui setting -port $port
